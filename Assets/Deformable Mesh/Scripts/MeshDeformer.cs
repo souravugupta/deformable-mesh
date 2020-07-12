@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
@@ -41,7 +41,7 @@ public class MeshDeformer : MonoBehaviour
             for (float r = 0.0f; r < radius; r += stepRadius) {
                 if (distance < r) {
                     Vector3 deformation = direction * s;
-                    vertices[i] += transform.InverseTransformPoint (deformation);
+                    vertices[i] = transform.InverseTransformPoint (vi + deformation);
                     break;
                 }
                 s -= stepStrength;
