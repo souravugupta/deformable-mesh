@@ -1,5 +1,5 @@
 # Deformable Mesh
-A Unity Game Engine Asset to Dynamically Deform a Mesh at Runtime.
+A Unity Game Engine Asset that Dynamically Deforms a Mesh at Runtime.
 
 # Using Deformable Mesh
 
